@@ -2,7 +2,7 @@
 /* Style the navigation menu */
 .navigation {
     overflow: hidden;
-    background-color: #333;
+    background-color:black
     position: relative;
   }
   
@@ -22,7 +22,7 @@
   
   /* Style the hamburger menu */
   .navigation a.icon {
-    background: black;
+    background: rgb(4, 68, 43);
     display: block;
     position: absolute;
     right: 0;
@@ -37,6 +37,27 @@
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #04AA6D;
+    background-color: #039964;
     color: white;
+  }
+
+
+  @media (max-width: 480px) {
+    body {
+      background-color: teal;
+    }
+  }
+  
+  /* media query for tablet */
+  @media (min-width: 481px) and (max-width: 767px) {
+    body {
+      background-color: teal;
+    }
+  }
+  
+  /* media query for desktop */
+  @media (min-width: 768px) {
+    body {
+      background-color: teal;
+    }
   }
