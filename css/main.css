@@ -22,7 +22,7 @@
   
   /* Style the hamburger menu */
   .navigation a.icon {
-    background: rgb(4, 68, 43);
+    background: rgb(146, 195, 163);
     display: block;
     position: absolute;
     right: 0;
@@ -43,7 +43,27 @@
   body, html {
     height: 100%;
 }
+p {
+  text-align: center;
+    color:rgb(146, 195, 163);
+}
 
+h1 {
+  text-align: center;
+    color:rgb(146, 195, 163);
+  }
+h2 {
+  text-align: center;
+    color:#039964;
+    }
+h3 {
+  color:rgb(146, 195, 163);
+}
+ol {
+  text-align: center;
+  font-weight: 650;
+  color:#039964;
+}
 /* The hero image */
 .cover-photo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".hero-ima./img/best-womens-running-leggings-1664787151.jpg");
@@ -69,6 +89,8 @@
   color: rgb(169, 217, 187);
 }
 form.form {
+  text-align: center;
+  color:rgb(146, 195, 163);
   display: table;
 }
 
@@ -86,22 +108,23 @@ label {
   padding-right: 10px;
 }
 
+
   @media (max-width: 480px) {
     body {
-      background-color: rgb(169, 217, 187);
+      background-color: rgb(4, 68, 43);
     }
   }
   
   /* media query for tablet */
   @media (min-width: 481px) and (max-width: 767px) {
     body {
-      background-color: rgb(169, 217, 187);
+      background-color: rgb(4, 68, 43);
     }
   }
   
   /* media query for desktop */
   @media (min-width: 768px) {
     body {
-      background-color: rgb(169, 217, 187);
+      background-color: rgb(4, 68, 43);
     }
   }
